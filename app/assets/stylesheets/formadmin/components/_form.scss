@@ -126,7 +126,7 @@ form {
     vertical-align: top;
   }
 
-  input[type='checkbox'] {
+  input[type='checkbox']:not(.normal-checkbox) {
     appearance: none;
     -webkit-appearance: none;
     background-color: shade($white, 5%);
